@@ -1,0 +1,14 @@
+{
+  "name": "permas-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PERMAS kurumsal ses ve g\u00f6r\u00fcnt\u00fc sistemleri web sitesi",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
